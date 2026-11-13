@@ -50,8 +50,12 @@ packages <- c(
   'here',
   # data cleaning
   'dplyr', 
-  # Parallel computing
-  'RcppParallel')
+  # Parallel computing,
+  'RcppParallel',
+  # inladen data
+  'readxl',
+  # analyse/rapportage
+  'ggplot2', 'tidyr', 'stringr')
 
 #install packages which are not available on the computing setup
 has_available   <- packages %in% rownames(installed.packages())

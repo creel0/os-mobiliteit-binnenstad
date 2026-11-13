@@ -37,7 +37,7 @@ remove <- FALSE # default = FALSE
 # map toevoegen van de karelstad omgeving waar de resultaten naar weg geschreven worden
 # file.choose() en dan /mp om het path op te halen
 # let er op om altijd te eindigen met / 
-karelstad_report_loc <- "/mp/kennisvelden/20_Kennisvelden/90_Overig/50_Projecten/test git/" 
+karelstad_report_loc <-  "/mp/kennisvelden/20_Kennisvelden/15_Verkeer en vervoer/10_Onderzoeken/2026 mobiliteit binnenstad/60 Rapportage/" 
 
 #setup and packages
 source('SRC/setup_packages.R')
